@@ -1,0 +1,4 @@
+// Laat onderstaande lijn staan
+var lines, lines_idx; function prompt(prompt_text) { if (!lines) { let fs=require('fs'); let input = fs.readFileSync('/dev/stdin').toString(); lines = input.split('\n'); lines_idx = 0;} if (lines_idx>=lines.length) return ""; else return lines[lines_idx++];}
+
+// Plak hieronder je code uit papyros

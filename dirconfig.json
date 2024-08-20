@@ -1,0 +1,11 @@
+{
+  "visibility": "public",
+  "evaluation": {
+    "handler": "javascript",
+    "time_limit": 15,
+    "memory_limit": 100000000
+  },
+  "programming_language": "javascript",
+  "author": "Luk De Reu <ldr.leraar@gmail.com>",
+  "contact": "ldr.leraar@gmail.com"
+}
