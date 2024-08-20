@@ -1,25 +1,18 @@
 - tab: "Oplossing"
   testcases:
-     - expression: "minimum(5, 6)"
-       return: 5
-       stdout: "ignored"
-     - expression: "minimum(6, 5)"
-       return: 5
-       stdout: --
-     - expression: "minimum(0, 6)"
-       return: 0
-       stdout: --
-     - expression: "minimum(7, 0)"
-       return: 0
-       stdout: --
-     - expression: "minimum(-1, 0)"
-       return: -1
-       stdout: --
-     - expression: "minimum(123456, -12)"
-       return: -12
-       stdout: --
-     - expression: "minimum(123465789, 123456788)"
-       return: 123456788
-       stdout: --
+#     - expression: "minimum(5, 6)"
+#       return: 5
      - stdin: "1\n2"
        stdout: "Minimum van 1 en 2 is 1"
+     - stdin: "1\n-2"
+       stdout: "Minimum van 1 en -2 is -2"
+     - stdin: "0\n2"
+       stdout: "Minimum van 0 en 2 is 0"
+     - stdin: "-1\n0"
+       stdout: "Minimum van -1 en 0 is 0"
+     - stdin: "123456789\n123456788"
+       stdout: "Minimum van 123456789 en 123456788 is 123456788"
+     - stdin: "10\n2"
+       stdout: "Minimum van 10 en 2 is 10"
+     - stdin: "2.12\n2.21"
+       stdout: "Minimum van 2.12 en 2.21 is 2.12"      
