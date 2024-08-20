@@ -1,0 +1,16 @@
+- tab: "Oplossing"
+  testcases:
+#     - expression: "minimum(5, 6)"
+#       return: 5
+     - stdin: "1000\n3.17\n4"
+       stdout: "Als je een kapitaal van 1000 eur spaart en je krijgt 3.17% intrest per jaar, dan is je kapitaal na 4 jaar 1132.96 eur."
+     - stdin: "1000\n3.17\n50"
+       stdout: "Als je een kapitaal van 1000 eur spaart en je krijgt 3.17% intrest per jaar, dan is je kapitaal na 50 jaar 4760.71 eur."
+     - stdin: "0\n3.17\n2"
+       stdout: "Als je een kapitaal van 0 eur spaart en je krijgt 3.17% intrest per jaar, dan is je kapitaal na 2 jaar 0.00 eur."
+     - stdin: "1000\n0\n10"
+       stdout: "Als je een kapitaal van 1000 eur spaart en je krijgt 0% intrest per jaar, dan is je kapitaal na 10 jaar 1000.00 eur."
+     - stdin: "1000\n2\n0"
+       stdout: "Als je een kapitaal van 1000 eur spaart en je krijgt 2% intrest per jaar, dan is je kapitaal na 0 jaar 1000.00 eur."
+     - stdin: "1000\n-1\n3"
+       stdout: "Als je een kapitaal van 1000 eur spaart en je krijgt -1% intrest per jaar, dan is je kapitaal na 3 jaar 970.30 eur."

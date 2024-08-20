@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "programming_language": "javascript",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Functies - samengestelde intrest"
+    }
+  },
+  "evaluation": {
+    "memory_limit": 500000000,
+    "plan_name": "tests.yaml",
+    "handler": "TESTed",
+    "options": {
+      "allow_fallback": false
+    }
+  },
+  "labels": ["Luk De Reu", "JavaScript"]
+}
