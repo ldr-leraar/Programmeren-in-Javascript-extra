@@ -2,7 +2,7 @@
   testcases:
      - expression: "minimum(5, 6)"
        return: 5
-       stdout: --
+       stdout: "ignored"
      - expression: "minimum(6, 5)"
        return: 5
        stdout: --
