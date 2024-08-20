@@ -2,17 +2,24 @@
   testcases:
      - expression: "minimum(5, 6)"
        return: 5
+       stdout: --
      - expression: "minimum(6, 5)"
        return: 5
+       stdout: --
      - expression: "minimum(0, 6)"
        return: 0
+       stdout: --
      - expression: "minimum(7, 0)"
        return: 0
+       stdout: --
      - expression: "minimum(-1, 0)"
        return: -1
+       stdout: --
      - expression: "minimum(123456, -12)"
        return: -12
-     - expression: "minimum(123465789, 132456788)"
-       return: 132456788
+       stdout: --
+     - expression: "minimum(123465789, 123456788)"
+       return: 123456788
+       stdout: --
      - stdin: "1\n2"
        stdout: "Minimum van 1 en 2 is 1"
