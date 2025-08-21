@@ -15,5 +15,12 @@
       "allow_fallback": false
     }
   },
-  "labels": ["Luk De Reu", "JavaScript"]
+  "labels": [
+    "Luk De Reu",
+    "JavaScript"
+  ],
+  "internals": {
+    "token": "r6fp8Ed4t_mr4bnjbQbnWQBYbksaM5qiRVCbbgs7B3hyGkQUuav86J8Vke7VhZAN",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
